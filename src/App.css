@@ -1,38 +1,152 @@
-.App {
+html {
+  scroll-behavior: smooth;
+}
+
+.App{
+  background-color: #2a2a4a;
+  /* background-color: #1B1B32; */
+}
+
+/* Nav Bar */
+nav{
+  display:flex;
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  list-style: none;
+  justify-content: right;
+  z-index: 5; /* Above anything */
+}
+
+header nav ul{
+  margin:0px;
+  float:right;
+}
+
+header nav ul li {
+  display:inline-block;
+  margin-right: 20px;
+}
+/* No me salió la transición !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+header nav ul li a {
+  text-decoration: none;
+  transition: transform 1s;
+}
+
+header nav ul li a:hover {
+  text-decoration:underline;
+}
+
+li a{
+  font-size: 25px;
+  color:white;
+  text-decoration: none;
+}
+/*  */
+
+section {
+  width: 100%;
+}
+
+#home-section {
+  width: 100%;
+  height: 110vh;
+  margin-bottom:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /*
+  background-image: url("./img/background-main.png");
+  background-size:cover;
+  */
+}
+
+.capa{
+  position:absolute;
+  width: 100%;
+  height: 110vh;
+  background-color: #2a2a4abe;
+  top:0;
+  z-index: 2;
+}
+
+video {
+  position: absolute;
+  width:100%;
+  height: 110vh;
+  object-fit: cover;
+  object-position: 20% 20%;
+  top:0;
+  z-index: 1;
+}
+
+.mainText-container {
+  height: 140px;
+  font-size: 50px;
+  color:rgb(255, 255, 255);
+  z-index: 3;
+}
+
+/* Color gradient between the img of home page and the project page */
+#color-gradient1 {
+  position:absolute;
+  width: 100%;
+  height: 180px;
+  bottom:-100px;
+  background-image: linear-gradient(#2a2a4a00,#2a2a4a);
+  z-index: 4;
+}
+/*  */
+
+.title-section {
+  margin:0px 0px 80px 0px;
+  font-size: 50px;
+  font-family: Karla,sans-serif;
+  color:rgb(255, 255, 255);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-separation {
+  height: auto;
+  padding:80px 0px 50px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#proyects-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position:relative;
+}
+
+.proyects-container {
+  display:flex;
+  max-width: 1300px;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+
+#aboutMe-section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(33, 33, 57);
+  height: 1000px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Color gradient between the proyects section and the about me section */
+#color-gradient2 {
+  position:absolute;
+  width: 100%;
+  height: 100px;
+  bottom:0px;
+  background-image: linear-gradient(to bottom,#2a2a4a,rgb(33, 33, 57));
 }
+/*  */
+
+
+

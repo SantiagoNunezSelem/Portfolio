@@ -1,0 +1,33 @@
+.skill-container {
+    display: flex;
+    align-items: center;
+    min-width: 140px;
+    width: auto;
+    height: 50px;
+    margin-bottom: 40px;
+    gap:7px;
+}
+
+.skill-container img {
+    width: auto;
+    height: 60px;
+}
+
+.skill-container p {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight:100;
+    color:white;
+}
+/*
+@media (max-width:1610px){
+    .skill-container{
+        min-width: 170px;
+    }
+}
+*/
+@media (max-width:1200px){
+    .skill-container{
+        min-width: 170px;
+    }
+}
