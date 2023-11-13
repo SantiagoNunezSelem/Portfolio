@@ -94,9 +94,15 @@ video {
   position:absolute;
   width: 100%;
   height: 180px;
-  bottom:-100px;
+  bottom:-130px;
   background-image: linear-gradient(#2a2a4a00,#2a2a4a);
   z-index: 4;
+}
+@media (min-height:1200px){
+  #color-gradient1 {
+    height: 300px;
+    bottom:-180px;
+  }
 }
 /*  */
 
@@ -120,24 +126,6 @@ video {
   position:relative;
 }
 
-.proyects-container {
-  display:flex;
-  max-width: 1300px;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 100px;
-  flex-wrap: wrap;
-}
-
-
-#aboutMe-section {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(33, 33, 57);
-  height: 1000px;
-}
-
 /* Color gradient between the proyects section and the about me section */
 #color-gradient2 {
   position:absolute;
@@ -148,5 +136,11 @@ video {
 }
 /*  */
 
-
+#contact-section {
+  display:flex;
+  height: 100px;
+  align-items:end;
+  padding-bottom: 30px;
+  background-color: rgba(33, 33, 57);
+}
 

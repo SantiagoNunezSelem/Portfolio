@@ -1,12 +1,10 @@
 import './App.css';
 import MainText from "./components/MainText.js";
-import Proyect from "./components/ProyectContainer.js";
-import calculatorImg from "./img/proyects/calculator.png";
-import tasksListImg from "./img/proyects/taskslist.jpg";
-import piBeerImg from "./img/proyects/pibeer.png";
-import portfolioImg from "./img/proyects/portfolio.png";
-import AboutMe from "./components/AboutMe.js";
+import Proyects from "./components/ProyectsSection/ProyectsSection.js";
+import AboutMe from "./components/AboutMe/AboutMe.js";
 import video from "./video/video.mp4";
+import Contact from "./components/Conctact.js";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +15,7 @@ function App() {
             <li><a href="#home-section">Home</a></li>
             <li><a href="#proyects-section">Proyects</a></li>
             <li><a href="#aboutMe-section">About Me</a></li>
+            <li><a href="#contact-section">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -29,61 +28,20 @@ function App() {
       </section>
 
       <section id="proyects-section" className="section-separation">
-        <h2 className="title-section">Proyects</h2>
-        <div className='proyects-container'>
-          <Proyect
-          title="Calculator"
-          hasHtml={true}
-          hasCss={true}
-          hasJavaScript={true}
-          hasReact={true}
-          proyectImg={calculatorImg}
-          urlGitHub="https://github.com/SantiagoNunezSelem/Web-Calculator"
-          urlProyect="https://santiagonunezselem.github.io/Web-Calculator/"
-          id={1}
-          />
-
-          <Proyect
-          title="Tasks List"
-          hasHtml={true}
-          hasCss={true}
-          hasJavaScript={true}
-          hasReact={true}
-          proyectImg={tasksListImg}
-          urlProyect="https://santiagonunezselem.github.io/Tasks-List"
-          urlGitHub="https://github.com/SantiagoNunezSelem/Tasks-List"
-          id={2}
-          />
-          
-          <Proyect
-          title="PiBeer"
-          hasHtml={true}
-          hasCss={true}
-          proyectImg={piBeerImg}
-          urlProyect="https://santiagonunezselem.github.io/piBeer"
-          urlGitHub="https://github.com/SantiagoNunezSelem/piBeer"
-          id={3}
-          />
-          
-          <Proyect
-          title="Portfolio"
-          hasHtml={true}
-          hasCss={true}
-          hasJavaScript={true}
-          hasReact={true}
-          proyectImg={portfolioImg}
-          urlProyect="#home-section"
-          id={4}
-          />
-        </div>
-        
+        {/* ----------------  rompe el proyecto en 600px de width ---------------- */}
+        <Proyects/>
         <div id='color-gradient2'></div>
       </section>
 
       <section id="aboutMe-section" className='section-separation'>
+        {/* ----------------  rompe el proyecto en 600px de width ---------------- */}
         <AboutMe/>
       </section>
 
+      <section id="contact-section">
+        <Contact/>
+      </section>
+      
     </div>
   );
 }

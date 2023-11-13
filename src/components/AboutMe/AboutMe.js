@@ -1,6 +1,6 @@
-import "../stylesheets/AboutMe.css";
-import Introduction from "./AboutMe/Introduction";
-import SkillList from "./AboutMe/SkillList";
+import "../../stylesheets/AboutMe/AboutMe.css";
+import Introduction from "./Introduction";
+import SkillList from "./SkillList";
 
 function AboutMe(){
     return(

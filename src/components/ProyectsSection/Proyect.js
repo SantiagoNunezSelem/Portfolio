@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from "react"
-import "../stylesheets/ProyectContainer.css";
-import htmlSymbol from "../img/symbols/html5-symbol.png";
-import cssSymbol from "../img/symbols/css-symbol.png"
-import javaScriptSymbol from "../img/symbols/javascript-symbol.png";
-import reactSymbol from "../img/symbols/react-symbol.png";
+import "../../stylesheets/ProyectsSection/Proyect.css";
+import htmlSymbol from "../../img/symbols/html5-symbol.png";
+import cssSymbol from "../../img/symbols/css-symbol.png"
+import javaScriptSymbol from "../../img/symbols/javascript-symbol.png";
+import reactSymbol from "../../img/symbols/react-symbol.png";
 
-function ProyectContainer( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proyectImg,urlGitHub,urlProyect}){
+function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proyectImg,urlGitHub,urlProyect}){
     
     const [targetSelected,setTarget]=useState("")
 
@@ -68,4 +68,4 @@ function ProyectContainer( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proye
     );
 }
 
-export default ProyectContainer
+export default Proyect;

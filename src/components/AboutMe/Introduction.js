@@ -9,7 +9,7 @@ function Introduction(){
                 <p>
                 Me llamo Santigo Nuñez Selem, tengo 20 años y actualmente me encuentro 
                 finalizando el segundo año de la carrera Licenciatura en Sistemas. Durante 
-                este periodo aprendí muchas cosas, entre las cuales se encuentran:
+                este período aprendí muchas cosas, entre las cuales se encuentran:
                 </p>
             </div>
         </div>
