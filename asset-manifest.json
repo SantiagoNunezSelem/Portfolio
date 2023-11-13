@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7ccf9185.css",
-    "main.js": "/Portfolio/static/js/main.8c32ca07.js",
-    "static/media/video.mp4": "/Portfolio/static/media/video.321fe793ea57c236f528.mp4",
-    "static/media/pibeer.png": "/Portfolio/static/media/pibeer.88eab2547884c59f2f6c.png",
-    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.e17fed4a2f8cadb04e5a.png",
-    "static/media/github-symbol.png": "/Portfolio/static/media/github-symbol.6a11169b08bbc6809666.png",
-    "static/media/santi.jpg": "/Portfolio/static/media/santi.6c7a1e088b08ee5bf7c7.jpg",
-    "static/media/linkedin-symbol.png": "/Portfolio/static/media/linkedin-symbol.a129052f1bf58476719b.png",
-    "static/media/taskslist.jpg": "/Portfolio/static/media/taskslist.ae49d7b111fd75b89287.jpg",
-    "static/media/whatsapp-symbol.png": "/Portfolio/static/media/whatsapp-symbol.652bb2a19b59e0dd38eb.png",
-    "static/media/javascript-symbol.png": "/Portfolio/static/media/javascript-symbol.f16d3c12512f95095367.png",
-    "static/media/python-symbol.png": "/Portfolio/static/media/python-symbol.f1ff353bbe744090d4bb.png",
-    "static/media/react-symbol.png": "/Portfolio/static/media/react-symbol.3b492bade043821ded42.png",
-    "static/media/calculator.png": "/Portfolio/static/media/calculator.fca997019657f0cb5fc2.png",
-    "index.html": "/Portfolio/index.html",
-    "main.7ccf9185.css.map": "/Portfolio/static/css/main.7ccf9185.css.map",
-    "main.8c32ca07.js.map": "/Portfolio/static/js/main.8c32ca07.js.map"
+    "main.css": "/Portfolio/build/static/css/main.7ccf9185.css",
+    "main.js": "/Portfolio/build/static/js/main.58cf94cf.js",
+    "static/media/video.mp4": "/Portfolio/build/static/media/video.321fe793ea57c236f528.mp4",
+    "static/media/pibeer.png": "/Portfolio/build/static/media/pibeer.88eab2547884c59f2f6c.png",
+    "static/media/portfolio.png": "/Portfolio/build/static/media/portfolio.e17fed4a2f8cadb04e5a.png",
+    "static/media/github-symbol.png": "/Portfolio/build/static/media/github-symbol.6a11169b08bbc6809666.png",
+    "static/media/santi.jpg": "/Portfolio/build/static/media/santi.6c7a1e088b08ee5bf7c7.jpg",
+    "static/media/linkedin-symbol.png": "/Portfolio/build/static/media/linkedin-symbol.a129052f1bf58476719b.png",
+    "static/media/taskslist.jpg": "/Portfolio/build/static/media/taskslist.ae49d7b111fd75b89287.jpg",
+    "static/media/whatsapp-symbol.png": "/Portfolio/build/static/media/whatsapp-symbol.652bb2a19b59e0dd38eb.png",
+    "static/media/javascript-symbol.png": "/Portfolio/build/static/media/javascript-symbol.f16d3c12512f95095367.png",
+    "static/media/python-symbol.png": "/Portfolio/build/static/media/python-symbol.f1ff353bbe744090d4bb.png",
+    "static/media/react-symbol.png": "/Portfolio/build/static/media/react-symbol.3b492bade043821ded42.png",
+    "static/media/calculator.png": "/Portfolio/build/static/media/calculator.fca997019657f0cb5fc2.png",
+    "index.html": "/Portfolio/build/index.html",
+    "main.7ccf9185.css.map": "/Portfolio/build/static/css/main.7ccf9185.css.map",
+    "main.58cf94cf.js.map": "/Portfolio/build/static/js/main.58cf94cf.js.map"
   },
   "entrypoints": [
     "static/css/main.7ccf9185.css",
-    "static/js/main.8c32ca07.js"
+    "static/js/main.58cf94cf.js"
   ]
 }
