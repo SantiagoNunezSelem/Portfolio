@@ -1,0 +1,17 @@
+
+.proyects-container {
+    display:flex;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+  }
+  
+  
+  #aboutMe-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(33, 33, 57);
+  }

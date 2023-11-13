@@ -10,7 +10,7 @@
     width:auto;
     max-width: 800px;
     height: 300px;
-    margin-top:70px;
+    margin-top:40px;
 }
 
 .technologies-skill-list-container {
@@ -33,25 +33,37 @@
 @media (max-width:1200px){
     .skill-list-container {
         width: 100%;
+        height: auto;
         align-items: flex-start;
         flex-direction: column;
         gap:0;
     }
 
+    .skill-list-container .h3-title {
+        font-size: 4vw;
+    }
+
     .technologies-skill-list-container,
     .design-skill-list-container {
+        height: auto;
         width:90%;
-        height: 300px;
         max-width: none;
         margin-left: 5%;
-        margin-top: 0px;
     }
 
     .technologies-skill-list-container{
-        margin-top: 80px;
+        margin-top: 4vw;
     }
 
     .design-skill-list-container {
+        margin-top: 0px;
+        height: auto;
         margin-top: none;
     }
+
+    .skills {
+        margin-top: 2vw;
+        gap:2vw;
+    }
+
 }

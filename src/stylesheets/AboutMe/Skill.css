@@ -19,15 +19,30 @@
     font-weight:100;
     color:white;
 }
-/*
-@media (max-width:1610px){
-    .skill-container{
-        min-width: 170px;
-    }
-}
-*/
+
 @media (max-width:1200px){
     .skill-container{
-        min-width: 170px;
+        /* min-width: 170px; */
+        height:auto;
+        min-width: 15vw;
+        margin-bottom: 2vw;
+    }
+
+    .skill-container img {
+        height: 5vw;
+    }
+
+    .skill-container p{
+        font-size: 2vw;
     }
 }
+/* 
+@media (max-width:900px){
+    .skill-container{
+        min-width: 130px;
+    }
+
+    .skill-container img {
+        height: 50px;
+    }
+} */
