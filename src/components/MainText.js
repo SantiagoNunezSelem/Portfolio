@@ -1,4 +1,5 @@
 import React from "react";
+import "../stylesheets/MainText.css";
 import Typed from "typed.js";
 
 function MainText(){
@@ -20,7 +21,7 @@ function MainText(){
     }, []);
 
     return(
-      <span  ref={textAnimated}></span>
+      <div className="home-text-container"><span ref={textAnimated}></span></div>
     );
 }
 
