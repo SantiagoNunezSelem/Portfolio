@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from "./components/NavBar.js";
 import MainText from "./components/MainText.js";
 import Proyects from "./components/ProyectsSection/ProyectsSection.js";
 import AboutMe from "./components/AboutMe/AboutMe.js";
@@ -10,14 +11,7 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <nav>
-          <ul>
-            <li><a href="#home-section">Home</a></li>
-            <li><a href="#proyects-section">Proyects</a></li>
-            <li><a href="#aboutMe-section">About Me</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-          </ul>
-        </nav>
+        <NavBar/>
       </header>
 
       <section id="home-section">
@@ -29,12 +23,11 @@ function App() {
 
       <section id="proyects-section" className="section-separation">
         {/* ----------------  rompe el proyecto en 600px de width ---------------- */}
-        <Proyects/>
+        {/* <Proyects/> */}
         <div id='color-gradient2'></div>
       </section>
 
       <section id="aboutMe-section" className='section-separation'>
-        {/* ----------------  rompe el proyecto en 600px de width ---------------- */}
         <AboutMe/>
       </section>
 
