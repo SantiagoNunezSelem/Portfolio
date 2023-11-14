@@ -24,25 +24,35 @@
     .skill-container{
         /* min-width: 170px; */
         height:auto;
+        min-width: auto;
+        margin-bottom: 2vw;
+    }
+
+    .skill-container img {
+        height: 5.2vw;
+    }
+
+    .skill-container p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:700px){
+    .skill-container{
         min-width: 15vw;
         margin-bottom: 2vw;
     }
 
     .skill-container img {
-        height: 5vw;
+        height: 6vw;
+    }
+}
+
+@media (max-width:500px){
+    .skill-container{
+        height:12vw;
     }
 
     .skill-container p{
-        font-size: 2vw;
+        font-size: 1.2rem;
     }
 }
-/* 
-@media (max-width:900px){
-    .skill-container{
-        min-width: 130px;
-    }
-
-    .skill-container img {
-        height: 50px;
-    }
-} */
