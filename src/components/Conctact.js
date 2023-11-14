@@ -8,7 +8,10 @@ import gitHubImg from "../img/symbols/github-symbol.png";
 function Contact(){
     return(
         <div className="contact-container">
-            <h3>C:\Users\Santiago\Documents\Contact{'>'}</h3>
+            <div className="h3-conctact-container">
+                <h3>C:\Users\Santiago\Documents\Contact{'>'}</h3>
+            </div>
+            
             <div className="icons-contact-container">
                 <a href="https://wa.me/+541123577722" target="_blank"><img src={whatsAppImg}/></a>
                 <a href="mailto:selemsantiago@gmail.com" target="_blank"><img src={emailImg}/></a>
