@@ -1,0 +1,48 @@
+nav{
+    display:flex;
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    top:0;
+    align-items: center;
+    list-style: none;
+    justify-content: right;
+    z-index: 5; /* Above anything */
+}
+
+header nav ul{
+    margin:0px;
+    float:right;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+/* No me salió la transición !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+header nav ul li a {
+    text-decoration: none;
+    transition: transform 1s;
+}
+
+header nav ul li a:hover {
+    text-decoration:underline;
+}
+
+li a{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+}
+
+@media(max-width:500px){
+
+
+    header nav ul li {
+        margin-right: 3vw;
+    }
+
+    li a{
+        font-size: 5vw;
+    }
+}
