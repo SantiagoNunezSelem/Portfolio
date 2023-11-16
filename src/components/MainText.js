@@ -21,7 +21,7 @@ function MainText(){
     }, []);
 
     return(
-      <div className="home-text-container"><span ref={textAnimated}></span></div>
+      <span className="home-text" ref={textAnimated}></span>
     );
 }
 
