@@ -9,6 +9,7 @@
 }
 
 .skill-container img {
+    pointer-events: none;
     width: auto;
     height: 60px;
 }
