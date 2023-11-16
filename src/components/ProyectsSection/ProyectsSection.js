@@ -9,7 +9,7 @@ import portfolioImg from "../../img/proyects/portfolio.png";
 function Proyects(){
     return(
         <>
-            <h2 className="title-section">Proyects</h2>
+            <h2 id="title-proyects-section" className="title-section">Proyects</h2>
             <div className='proyects-container'>
                 <Proyect
                 title="Calculator"
@@ -53,6 +53,7 @@ function Proyects(){
                 hasReact={true}
                 proyectImg={portfolioImg}
                 urlProyect="#home-section"
+                urlGitHub="https://github.com/SantiagoNunezSelem/Portfolio"
                 id={4}
                 />
             </div>

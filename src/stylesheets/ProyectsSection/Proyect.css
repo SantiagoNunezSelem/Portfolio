@@ -104,3 +104,58 @@
     color:#1B1B32;
     cursor:pointer;
 }
+
+@media (max-width:700px){
+    .background-proyect-container {
+        width: 80vw;
+        height: 70vw;
+        margin:5vw auto;
+        border-radius: 7vw;
+    }
+
+    .proyect-container {
+        max-width: 85%;
+        margin-left:5.8vw;
+    }
+
+    .proyect-container .h3-title {
+        font-size: 7vw;
+        margin:3vw 0px;
+    }
+
+    .symbols-container {
+        margin:3vw 0.5vw;
+    }
+    
+
+    .symbols-container img {
+        width:6vw;
+    }
+    
+    /* I modify the react symbol */
+    .symbols-container .reactSymbol {
+        width:7.5vw;
+    }
+
+    .proyect-img-container,.proyect-img {
+        width: 68vw;
+        height: 33vw;
+    }
+    
+    .proyect-container h4 {
+        font-size: 6vw;
+    }
+
+    
+    .proyect-buttons-container {
+        margin:2.8vw 0px;
+        gap:2.8vw;
+    }
+
+    .proyect-buttons-container button {
+        width: 30vw;
+        height: 7.5vw;
+        font-size: 6vw;
+        /* font-weight:400; */
+    }
+}
