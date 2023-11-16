@@ -27,18 +27,20 @@
 }
 
 @media (max-width:700px){
-  #title-proyects-section {
-    font-size: 50px;
-  }
-
   .proyects-container {
     max-width: 1000px;
-    margin-bottom: 8vw;
+    margin-bottom: 15vw;
+  }
+
+  #title-proyects-section {
+    font-size: 50px;
   }
 
   #title-proyects-section {
     margin-bottom: 10vw;
   }
 }
+
+
 
 
