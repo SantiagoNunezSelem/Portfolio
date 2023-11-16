@@ -85,30 +85,42 @@
     gap:20px;
 }
 
-.proyect-buttons-container button {
+.proyect-buttons-container a{
+    display:flex;
     width: 210px;
     height: 50px;
-    font-size: 40px;
-    font-weight:400;
-    text-align: center;
-    font-family: Karma;
-    color:#FFF;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff00;
     border: 1px solid #FFF;
     border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+
+.proyect-buttons-container a p{
+    font-size: 40px;
+    font-weight:400;
+    margin:0;
+    text-align: center;
+    font-family: Karma;
+    color:#FFF;
     transition: all 0.3s;
 }
 
-.proyect-buttons-container button:hover {
+.proyect-buttons-container a:hover {
     background-color: #FFF;
+}
+
+.proyect-buttons-container a:hover p{
     color:#1B1B32;
-    cursor:pointer;
 }
 
 @media (max-width:700px){
     .background-proyect-container {
         width: 80vw;
-        height: 70vw;
+        height: 71vw;
         margin:5vw auto;
         border-radius: 7vw;
     }
@@ -148,14 +160,17 @@
 
     
     .proyect-buttons-container {
-        margin:2.8vw 0px;
+        margin:3vw 0px;
         gap:2.8vw;
     }
 
-    .proyect-buttons-container button {
+    .proyect-buttons-container a {
         width: 30vw;
         height: 7.5vw;
+        border-radius: 1.5vw;
+    }
+
+    .proyect-buttons-container a p {
         font-size: 6vw;
-        /* font-weight:400; */
     }
 }

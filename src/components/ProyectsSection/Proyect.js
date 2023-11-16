@@ -54,11 +54,11 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proyectImg,url
                 
                 <div className="proyect-buttons-container">
                     <a href={urlGitHub} target={"_blank"}>
-                        <button>code</button>
+                        <p>code</p>
                     </a>
                     
                     <a href={urlProyect} target={targetSelected} id="try-it">
-                        <button>try it</button>
+                        <p>try it</p>
                     </a>
                 </div>
                 
