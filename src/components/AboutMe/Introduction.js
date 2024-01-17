@@ -8,7 +8,7 @@ function Introduction(){
             <div className="text-intro-container">
                 <p>
                 Me llamo Santigo Nuñez Selem, tengo 20 años y actualmente me encuentro 
-                finalizando el segundo año de la carrera Licenciatura en Sistemas. Durante 
+                cursando el tercer año de la carrera Licenciatura en Sistemas. Durante 
                 este período aprendí muchas cosas, entre las cuales se encuentran:
                 </p>
             </div>
