@@ -5,12 +5,26 @@ import calculatorImg from "../../img/proyects/calculator.png";
 import tasksListImg from "../../img/proyects/taskslist.jpg";
 import piBeerImg from "../../img/proyects/pibeer.png";
 import portfolioImg from "../../img/proyects/portfolio.png";
+import filterUsersApp from "../../img/proyects/filter-users-app.png";
 
 function Proyects(){
     return(
         <>
             <h2 id="title-proyects-section" className="title-section">Proyects</h2>
             <div className='proyects-container'>
+                <Proyect
+                title="Filter Users App"
+                hasHtml={true}
+                hasCss={true}
+                hasJavaScript={true}
+                hasReact={true}
+                hasBootstrap={true}
+                proyectImg={filterUsersApp}
+                urlGitHub="https://github.com/SantiagoNunezSelem/Filter-Users-App"
+                urlProyect="https://santiagonunezselem.github.io/Filter-Users-App/"
+                id={1}
+                />
+
                 <Proyect
                 title="Calculator"
                 hasHtml={true}
@@ -21,7 +35,7 @@ function Proyects(){
                 proyectImg={calculatorImg}
                 urlGitHub="https://github.com/SantiagoNunezSelem/Web-Calculator"
                 urlProyect="https://santiagonunezselem.github.io/Web-Calculator/"
-                id={1}
+                id={2}
                 />
 
                 <Proyect
@@ -33,7 +47,7 @@ function Proyects(){
                 proyectImg={tasksListImg}
                 urlProyect="https://santiagonunezselem.github.io/Tasks-List"
                 urlGitHub="https://github.com/SantiagoNunezSelem/Tasks-List"
-                id={2}
+                id={3}
                 />
                 
                 <Proyect
@@ -43,7 +57,7 @@ function Proyects(){
                 proyectImg={piBeerImg}
                 urlProyect="https://santiagonunezselem.github.io/piBeer"
                 urlGitHub="https://github.com/SantiagoNunezSelem/piBeer"
-                id={3}
+                id={4}
                 />
                 
                 <Proyect
@@ -55,7 +69,7 @@ function Proyects(){
                 proyectImg={portfolioImg}
                 urlProyect="#home-section"
                 urlGitHub="https://github.com/SantiagoNunezSelem/Portfolio"
-                id={4}
+                id={5}
                 />
             </div>
         </>
