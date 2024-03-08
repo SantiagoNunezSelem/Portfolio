@@ -4,8 +4,9 @@ import htmlSymbol from "../../img/symbols/html5-symbol.png";
 import cssSymbol from "../../img/symbols/css-symbol.png"
 import javaScriptSymbol from "../../img/symbols/javascript-symbol.png";
 import reactSymbol from "../../img/symbols/react-symbol.png";
+import bootstrapSybol from "../../img/symbols/bootstrap-symbol.png";
 
-function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proyectImg,urlGitHub,urlProyect}){
+function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,proyectImg,urlGitHub,urlProyect}){
     
     const [targetSelected,setTarget]=useState("")
 
@@ -19,6 +20,8 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,proyectImg,url
             html+=`<img src=${javaScriptSymbol}></img>`;
         if(hasReact)
             html+=`<img class="reactSymbol" src=${reactSymbol}></img>`;
+        if(hasBootstrap)
+            html+=`<img class="bootstrapSymbol" src=${bootstrapSybol}></img>`;
         
         let container = document.getElementById(id)
         container.innerHTML = html;

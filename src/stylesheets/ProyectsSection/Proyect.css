@@ -39,6 +39,12 @@
     width:50px;
 }
 
+/* I modify the bootstrap symbol */
+
+.symbols-container .bootstrapSymbol {
+    width: 55px;
+}
+
 .proyect-img-container,.proyect-img {
     position: relative;
     overflow: hidden;

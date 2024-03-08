@@ -17,6 +17,7 @@ function Proyects(){
                 hasCss={true}
                 hasJavaScript={true}
                 hasReact={true}
+                hasBootstrap={true}
                 proyectImg={calculatorImg}
                 urlGitHub="https://github.com/SantiagoNunezSelem/Web-Calculator"
                 urlProyect="https://santiagonunezselem.github.io/Web-Calculator/"
