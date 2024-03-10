@@ -155,6 +155,11 @@
         width:7.5vw;
     }
 
+    /* I modify the bootstrap symbol */
+    .symbols-container .bootstrapSymbol {
+        width:8.7vw;
+    }
+
     .proyect-img-container,.proyect-img {
         width: 68vw;
         height: 33vw;
