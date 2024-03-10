@@ -13,15 +13,15 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,p
     function selectImg(){
         let html="";
         if(hasHtml)
-            html+=`<img src=${htmlSymbol}></img>`;
+            html+=`<img src=${htmlSymbol} title="HTML"></img>`;
         if(hasCss)
-            html+=`<img src=${cssSymbol}></img>`;
+            html+=`<img src=${cssSymbol} title="CSS"></img>`;
         if(hasJavaScript)
-            html+=`<img src=${javaScriptSymbol}></img>`;
+            html+=`<img src=${javaScriptSymbol} title="JavaScript"></img>`;
         if(hasReact)
-            html+=`<img class="reactSymbol" src=${reactSymbol}></img>`;
+            html+=`<img class="reactSymbol" src=${reactSymbol} title="React"></img>`;
         if(hasBootstrap)
-            html+=`<img class="bootstrapSymbol" src=${bootstrapSybol}></img>`;
+            html+=`<img class="bootstrapSymbol" src=${bootstrapSybol} title="Bootstrap"></img>`;
         
         let container = document.getElementById(id)
         container.innerHTML = html;
