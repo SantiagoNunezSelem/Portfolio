@@ -50,7 +50,7 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,p
                 </div> 
                 <a href={urlProyect} target={targetSelected}>
                     <div className="proyect-img-container" >
-                        <img className="proyect-img" src={proyectImg} draggable="false"/>
+                        <img className="proyect-img" src={proyectImg} alt={title+"-photo"} draggable="false"/>
                         <h4>Try It</h4>
                     </div>
                 </a>
