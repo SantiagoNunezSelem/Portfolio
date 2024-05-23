@@ -18,6 +18,7 @@ function Proyects(){
                     hasJavaScript={p.hasJavaScript}
                     hasReact={p.hasReact}
                     hasBootstrap={p.hasBootstrap}
+                    hasTailwind={p.hasTailwind}
                     proyectImg={p.proyectImg}
                     urlGitHub={p.urlGitHub}
                     urlProyect={p.urlProyect}
