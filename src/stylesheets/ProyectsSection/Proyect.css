@@ -45,6 +45,11 @@
     width: 55px;
 }
 
+.symbols-container .tailwindSymbol {
+    width: 60px;
+    height: 45px;
+}
+
 .proyect-img-container,.proyect-img {
     position: relative;
     overflow: hidden;
