@@ -1,12 +1,13 @@
 import React,{useState,useEffect} from "react"
-import "../../stylesheets/ProyectsSection/Proyect.css";
-import htmlSymbol from "../../img/symbols/html5-symbol.png";
+import "../../stylesheets/ProyectsSection/Proyect.css"
+import htmlSymbol from "../../img/symbols/html5-symbol.png"
 import cssSymbol from "../../img/symbols/css-symbol.png"
-import javaScriptSymbol from "../../img/symbols/javascript-symbol.png";
-import reactSymbol from "../../img/symbols/react-symbol.png";
-import bootstrapSybol from "../../img/symbols/bootstrap-symbol.png";
+import javaScriptSymbol from "../../img/symbols/javascript-symbol.png"
+import reactSymbol from "../../img/symbols/react-symbol.png"
+import bootstrapSymbol from "../../img/symbols/bootstrap-symbol.png"
+import tailwindSymbol from "../../img/symbols/tailwind-symbol.png"
 
-function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,proyectImg,urlGitHub,urlProyect}){
+function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,hasTailwind,proyectImg,urlGitHub,urlProyect}){
     
     const [targetSelected,setTarget]=useState("")
 
@@ -21,8 +22,10 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,p
         if(hasReact)
             html+=`<img class="reactSymbol" src=${reactSymbol} title="React"></img>`;
         if(hasBootstrap)
-            html+=`<img class="bootstrapSymbol" src=${bootstrapSybol} title="Bootstrap"></img>`;
-        
+            html+=`<img class="bootstrapSymbol" src=${bootstrapSymbol} title="Bootstrap"></img>`;
+        if(hasTailwind)
+            html+=`<img class="tailwindSymbol" src=${tailwindSymbol} title="Tailwind"></img>`;
+
         let container = document.getElementById(id)
         container.innerHTML = html;
     }
