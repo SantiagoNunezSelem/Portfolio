@@ -1,3 +1,4 @@
+import barberShop from "../img/proyects/barberShop.png"
 import filterAppImg from "../img/proyects/filter-users-app.png"
 import calculatorImg from "../img/proyects/calculator.png"
 import taskListImg from "../img/proyects/taskslist.jpg"
@@ -5,6 +6,17 @@ import piBeerImg from "../img/proyects/pibeer.png"
 import portfolioImg from "../img/proyects/portfolio.png"
 
 const proyects = [
+    {
+        title:"Barber Shop",
+        hasHTML:true,
+        hasCss:true,
+        hasJavaScript:true,
+        hasReact:true,
+        hasTailwind:true,
+        proyectImg:barberShop,
+        urlGitHub:"https://github.com/SantiagoNunezSelem/No-Country-C17/tree/main-sin-db",
+        urlProyect:"https://c17-peluqueria.vercel.app/"
+    },
     {
         title:"Filter Users App",
         hasHTML:true,
