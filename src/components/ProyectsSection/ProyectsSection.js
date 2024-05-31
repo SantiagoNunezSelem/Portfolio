@@ -13,12 +13,7 @@ function Proyects(){
                     id={index}
                     key={index}
                     title={p.title}
-                    hasHtml={p.hasHTML}
-                    hasCss={p.hasCss}
-                    hasJavaScript={p.hasJavaScript}
-                    hasReact={p.hasReact}
-                    hasBootstrap={p.hasBootstrap}
-                    hasTailwind={p.hasTailwind}
+                    technologies={p.technologies}
                     proyectImg={p.proyectImg}
                     urlGitHub={p.urlGitHub}
                     urlProyect={p.urlProyect}
