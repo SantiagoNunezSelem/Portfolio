@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b822c5b9.css",
-    "main.js": "/Portfolio/static/js/main.fa5b99d3.js",
+    "main.css": "/Portfolio/static/css/main.cde5944c.css",
+    "main.js": "/Portfolio/static/js/main.0acffa90.js",
     "static/media/video.mp4": "/Portfolio/static/media/video.321fe793ea57c236f528.mp4",
     "static/media/pibeer.png": "/Portfolio/static/media/pibeer.88eab2547884c59f2f6c.png",
-    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.e17fed4a2f8cadb04e5a.png",
+    "static/media/barberShop.png": "/Portfolio/static/media/barberShop.80c7efbe4e4114d2e6ed.png",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.144ca4d8edd8f05a2cd2.png",
+    "static/media/tailwind-symbol.png": "/Portfolio/static/media/tailwind-symbol.3549d9e451d7abb96934.png",
     "static/media/github-symbol.png": "/Portfolio/static/media/github-symbol.6a11169b08bbc6809666.png",
     "static/media/bootstrap-symbol.png": "/Portfolio/static/media/bootstrap-symbol.bde5f2777326012b3d17.png",
     "static/media/filter-users-app.png": "/Portfolio/static/media/filter-users-app.491816b7c1121ec069a4.png",
     "static/media/santi.jpg": "/Portfolio/static/media/santi.6c7a1e088b08ee5bf7c7.jpg",
     "static/media/linkedin-symbol.png": "/Portfolio/static/media/linkedin-symbol.a129052f1bf58476719b.png",
     "static/media/taskslist.jpg": "/Portfolio/static/media/taskslist.ae49d7b111fd75b89287.jpg",
-    "static/media/whatsapp-symbol.png": "/Portfolio/static/media/whatsapp-symbol.652bb2a19b59e0dd38eb.png",
     "static/media/javascript-symbol.png": "/Portfolio/static/media/javascript-symbol.f16d3c12512f95095367.png",
     "static/media/python-symbol.png": "/Portfolio/static/media/python-symbol.f1ff353bbe744090d4bb.png",
     "static/media/react-symbol.png": "/Portfolio/static/media/react-symbol.3b492bade043821ded42.png",
     "static/media/calculator.png": "/Portfolio/static/media/calculator.fca997019657f0cb5fc2.png",
     "index.html": "/Portfolio/index.html",
-    "main.b822c5b9.css.map": "/Portfolio/static/css/main.b822c5b9.css.map",
-    "main.fa5b99d3.js.map": "/Portfolio/static/js/main.fa5b99d3.js.map"
+    "main.cde5944c.css.map": "/Portfolio/static/css/main.cde5944c.css.map",
+    "main.0acffa90.js.map": "/Portfolio/static/js/main.0acffa90.js.map"
   },
   "entrypoints": [
-    "static/css/main.b822c5b9.css",
-    "static/js/main.fa5b99d3.js"
+    "static/css/main.cde5944c.css",
+    "static/js/main.0acffa90.js"
   ]
 }
