@@ -24,7 +24,7 @@ section {
 .capa{
   position:absolute;
   width: 100%;
-  height: 110vh;        /* For degrade effect */
+  height: 106vh;        /* For degrade effect */
   background-color: #2a2a4abe;
   top:0;
   z-index: 2;
@@ -33,7 +33,7 @@ section {
 video {
   position: absolute;
   width:100%;
-  height: 110vh;
+  height: 105vh;
   object-fit: cover;
   object-position: 20% 20%;
   top:0;
@@ -53,7 +53,7 @@ video {
   position:absolute;
   width: 100%;
   height: 180px;
-  top:-229px;
+  bottom: -5vh;
   background-image: linear-gradient(#2a2a4a00,#2a2a4a);
   z-index: 4;
 }
@@ -89,9 +89,8 @@ video {
 /*  */
 
 #contact-section {
-  display:flex;
+  display:flex-end;
   height: auto;
-  align-items:end;
   padding-bottom: 30px;
   background-color: rgba(33, 33, 57);
 }
@@ -102,8 +101,8 @@ video {
   }
 
   #color-gradient1 {
-    top:-30vw;
-    height: 30vw;
+    bottom: -5vh;
+    height: 50vw;
   }
 
   #color-gradient2 {
