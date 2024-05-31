@@ -1,37 +1,13 @@
 import React,{useState,useEffect} from "react"
 import "../../stylesheets/ProyectsSection/Proyect.css"
-import htmlSymbol from "../../img/symbols/html5-symbol.png"
-import cssSymbol from "../../img/symbols/css-symbol.png"
-import javaScriptSymbol from "../../img/symbols/javascript-symbol.png"
-import reactSymbol from "../../img/symbols/react-symbol.png"
-import bootstrapSymbol from "../../img/symbols/bootstrap-symbol.png"
-import tailwindSymbol from "../../img/symbols/tailwind-symbol.png"
 
-function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,hasTailwind,proyectImg,urlGitHub,urlProyect}){
+import { OverlayTrigger, Tooltip } from "react-bootstrap"
+
+function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlProyect}){
     
     const [targetSelected,setTarget]=useState("")
 
-    function selectImg(){
-        let html="";
-        if(hasHtml)
-            html+=`<img src=${htmlSymbol} title="HTML"></img>`;
-        if(hasCss)
-            html+=`<img src=${cssSymbol} title="CSS"></img>`;
-        if(hasJavaScript)
-            html+=`<img src=${javaScriptSymbol} title="JavaScript"></img>`;
-        if(hasReact)
-            html+=`<img class="reactSymbol" src=${reactSymbol} title="React"></img>`;
-        if(hasBootstrap)
-            html+=`<img class="bootstrapSymbol" src=${bootstrapSymbol} title="Bootstrap"></img>`;
-        if(hasTailwind)
-            html+=`<img class="tailwindSymbol" src=${tailwindSymbol} title="Tailwind"></img>`;
-
-        let container = document.getElementById(id)
-        container.innerHTML = html;
-    }
-
     useEffect(() => {
-        selectImg();
         selectTarget();
     })
 
@@ -43,14 +19,25 @@ function Proyect( {id,title,hasHtml,hasCss,hasJavaScript,hasReact,hasBootstrap,h
             setTarget("_top")
     }
 
-
     return(
         <div className="background-proyect-container">
             <div className="proyect-container">
                 <h3 className="h3-title">{title}</h3>
 
                 <div className="symbols-container" id={id}>
-                </div> 
+                    {
+                    Object.keys(technologies).map((key) => {
+                        const tech = technologies[key];
+                        return(
+                            //Use ToolTips to identify each technologie 
+                            <OverlayTrigger overlay={<Tooltip>{tech.name}</Tooltip>}>
+                                <img src={tech.symbol} class={tech.className}></img>
+                            </OverlayTrigger>
+                        )
+                    })
+                    }
+                </div>
+
                 <a href={urlProyect} target={targetSelected}>
                     <div className="proyect-img-container" >
                         <img className="proyect-img" src={proyectImg} alt={title+"-photo"} draggable="false"/>
