@@ -18,10 +18,11 @@ function App() {
         <div className="capa"></div>
         <video src={video} muted autoPlay loop></video>
         <div className="mainText-container"><MainText/></div>
-        <div id="color-gradient1"></div>
+        
       </section>
-
+      <div id="color-gradient1"></div>
       <section id="proyects-section" className="section-separation">
+        
         <Proyects/>
         <div id='color-gradient2'></div>
       </section>
