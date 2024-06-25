@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c46845d9.css",
-    "main.js": "/Portfolio/static/js/main.90fe5725.js",
+    "main.css": "/Portfolio/static/css/main.ae4e2d92.css",
+    "main.js": "/Portfolio/static/js/main.1f370c36.js",
     "static/media/video.mp4": "/Portfolio/static/media/video.321fe793ea57c236f528.mp4",
     "static/media/pibeer.png": "/Portfolio/static/media/pibeer.88eab2547884c59f2f6c.png",
     "static/media/barberShop.png": "/Portfolio/static/media/barberShop.80c7efbe4e4114d2e6ed.png",
@@ -18,11 +18,11 @@
     "static/media/react-symbol.png": "/Portfolio/static/media/react-symbol.3b492bade043821ded42.png",
     "static/media/calculator.png": "/Portfolio/static/media/calculator.fca997019657f0cb5fc2.png",
     "index.html": "/Portfolio/index.html",
-    "main.c46845d9.css.map": "/Portfolio/static/css/main.c46845d9.css.map",
-    "main.90fe5725.js.map": "/Portfolio/static/js/main.90fe5725.js.map"
+    "main.ae4e2d92.css.map": "/Portfolio/static/css/main.ae4e2d92.css.map",
+    "main.1f370c36.js.map": "/Portfolio/static/js/main.1f370c36.js.map"
   },
   "entrypoints": [
-    "static/css/main.c46845d9.css",
-    "static/js/main.90fe5725.js"
+    "static/css/main.ae4e2d92.css",
+    "static/js/main.1f370c36.js"
   ]
 }
