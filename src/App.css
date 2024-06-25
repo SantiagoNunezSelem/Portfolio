@@ -53,9 +53,8 @@ video {
   position:absolute;
   width: 100%;
   height: 180px;
-  bottom: -5vh;
-  /* background-image: linear-gradient(#2a2a4a00,#2a2a4a); */
-  background-image: linear-gradient(#2a2a4a00,#ffffff); /* Solo para ver mejor el degradé (puebas) */
+  bottom:-2.8vw;
+  background-image: linear-gradient(#2a2a4a00,#2a2a4a);
   z-index: 4;
 }
 
