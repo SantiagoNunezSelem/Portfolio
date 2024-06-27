@@ -3,12 +3,17 @@ import "../../stylesheets/ProyectsSection/Proyect.css"
 
 import { OverlayTrigger, Tooltip } from "react-bootstrap"
 
-function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlProyect}){
+function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlVideo,urlProyect}){
     
     const [targetSelected,setTarget]=useState("")
 
+    const [buttonText2,setButtonText2]=useState("Try It")
+
+    const [url2,setUrl2]=useState("")
+
     useEffect(() => {
-        selectTarget();
+        selectTarget()
+        setInfo()
     })
 
     const selectTarget = () => {
@@ -17,6 +22,15 @@ function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlProyect}){
             setTarget("_blank")
         else
             setTarget("_top")
+    }
+
+    const setInfo = () => {
+        if(urlProyect == null){
+            setUrl2(urlVideo)
+            setButtonText2("Video")
+        } 
+        else
+            setUrl2(urlProyect)
     }
 
     return(
@@ -38,10 +52,10 @@ function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlProyect}){
                     }
                 </div>
 
-                <a href={urlProyect} target={targetSelected}>
+                <a href={url2} target={targetSelected}>
                     <div className="proyect-img-container" >
                         <img className="proyect-img" src={proyectImg} alt={title+"-photo"} draggable="false"/>
-                        <h4>Try It</h4>
+                        <h4>{buttonText2}</h4>
                     </div>
                 </a>
                 
@@ -50,8 +64,8 @@ function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlProyect}){
                         <p>code</p>
                     </a>
                     
-                    <a href={urlProyect} target={targetSelected} id="try-it">
-                        <p>try it</p>
+                    <a href={url2} target={targetSelected} id="try-it">
+                        <p>{buttonText2.toLowerCase()}</p>
                     </a>
                 </div>
                 

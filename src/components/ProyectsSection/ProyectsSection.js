@@ -16,6 +16,7 @@ function Proyects(){
                     technologies={p.technologies}
                     proyectImg={p.proyectImg}
                     urlGitHub={p.urlGitHub}
+                    urlVideo={p.urlVideo}
                     urlProyect={p.urlProyect}
                     />
                     )
