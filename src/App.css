@@ -19,12 +19,13 @@ section {
   justify-content: center;
   padding-bottom: 10vh; /* For degrade effect */
   margin-bottom:50px;
+  position:relative;
 }
 
 .capa{
   position:absolute;
   width: 100%;
-  height: 106vh;        /* For degrade effect */
+  height: 105vh;        /* For degrade effect */
   background-color: #2a2a4abe;
   top:0;
   z-index: 2;
@@ -54,7 +55,7 @@ video {
   width: 100%;
   height: 250px;
   bottom: -5vh;
-  background-image: linear-gradient(#2a2a4a00,#2a2a4a);
+  background-image: linear-gradient(#ffffff00,#2a2a4a);
   z-index: 4;
 }
 
@@ -101,8 +102,7 @@ video {
   }
 
   #color-gradient1 {
-    bottom: -50px;
-    height: 200px;
+    height: 300px;
   }
 
   #color-gradient2 {
