@@ -4,7 +4,10 @@ import javaScriptSymbol from "../img/symbols/javascript-symbol.png"
 import reactSymbol from "../img/symbols/react-symbol.png"
 import bootstrapSymbol from "../img/symbols/bootstrap-symbol.png"
 import tailwindSymbol from "../img/symbols/tailwind-symbol.png"
+import cSharp from "../img/symbols/cSharp-symbol.png"
+import netFramework from "../img/symbols/net-framework-symbol.png"
 
+import sportClub from "../img/proyects/sport-club.jpg"
 import barberShop from "../img/proyects/barberShop.png"
 import filterAppImg from "../img/proyects/filter-users-app.png"
 import calculatorImg from "../img/proyects/calculator.png"
@@ -12,7 +15,19 @@ import taskListImg from "../img/proyects/taskslist.jpg"
 import piBeerImg from "../img/proyects/pibeer.png"
 import portfolioImg from "../img/proyects/portfolio.png"
 
+
 const proyects = [
+    {
+        title:"Sport Club",
+        technologies:{
+            cSharp: {symbol: cSharp, name:"C#", className:""},
+            netFramework: {symbol: netFramework, name:".NET Framework", className: "netFramework"},
+        },
+        proyectImg:sportClub,
+        urlVideo:"https://youtu.be/Tg1rY32__eo",
+        urlGitHub:"https://github.com/SantiagoNunezSelem/ClubDeportivo"
+    },
+
     {
         title:"Barber Shop",
         technologies:{
