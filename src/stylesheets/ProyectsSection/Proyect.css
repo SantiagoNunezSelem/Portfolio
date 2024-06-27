@@ -50,6 +50,10 @@
     height: 45px;
 }
 
+.symbols-container .netFramework {
+    width: 44px;
+}
+
 .proyect-img-container,.proyect-img {
     position: relative;
     overflow: hidden;
