@@ -1,7 +1,7 @@
 .skill-container {
     display: flex;
     align-items: center;
-    min-width: 140px;
+    justify-content: center;
     width: auto;
     height: 50px;
     margin-bottom: 40px;
@@ -15,6 +15,7 @@
 }
 
 .skill-container p {
+    margin:auto auto auto 5px;
     font-size: 22px;
     font-family: sans-serif;
     font-weight:100;
@@ -51,6 +52,10 @@
 @media (max-width:500px){
     .skill-container{
         height:12vw;
+    }
+
+    .skill-container img {
+        height: 30px;
     }
 
     .skill-container p{
