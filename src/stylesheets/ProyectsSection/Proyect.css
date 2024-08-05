@@ -1,7 +1,7 @@
 
 .background-proyect-container {
     width: 560px;
-    height: 485px;
+    height: 500px;
     border-radius: 40px;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.81) 0%, rgba(22, 22, 22, 0.80) 100%);
     margin:30px auto;
@@ -25,33 +25,37 @@
 
 .symbols-container {
     display:flex;
+    align-items: center;
     gap:9px;
     margin:20px 4px;
+    max-height: 60px;
 }
 
 .symbols-container img {
-    width:40px;
-    height:auto;
+    width:55px;
+    height: auto;
+
+}
+
+.symbols-container .circle-symbol {
+    width: 60px;
+    height: 60px;
 }
 
 /* I modify the react symbol */
 .symbols-container .reactSymbol {
-    width:50px;
+    width:65px;
 }
 
 /* I modify the bootstrap symbol */
 
 .symbols-container .bootstrapSymbol {
-    width: 55px;
+    width: 70px;
 }
 
 .symbols-container .tailwindSymbol {
-    width: 60px;
-    height: 45px;
-}
-
-.symbols-container .netFramework {
-    width: 44px;
+    width: 70px;
+    height: 55px;
 }
 
 .proyect-img-container,.proyect-img {
@@ -159,6 +163,11 @@
         width:6vw;
     }
     
+
+    .symbols-container .circle-symbol {
+        width: 7.5vw;
+    }
+
     /* I modify the react symbol */
     .symbols-container .reactSymbol {
         width:7.5vw;
@@ -170,11 +179,6 @@
     }
 
     .symbols-container .tailwindSymbol {
-        width:7.5vw;
-        height: auto;
-    }
-
-    .symbols-container .netFramework {
         width:7.5vw;
         height: auto;
     }
