@@ -39,8 +39,8 @@
 }
 
 .symbols-container .circle-symbol {
-    width: 60px;
-    height: 60px;
+    width: 67px;
+    height: 67px;
 }
 
 /* I modify the react symbol */
@@ -52,6 +52,10 @@
 
 .symbols-container .bootstrapSymbol {
     width: 70px;
+}
+
+.symbols-container .typeScript {
+    width: 72px;
 }
 
 .symbols-container .tailwindSymbol {
