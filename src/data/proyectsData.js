@@ -1,6 +1,7 @@
 import htmlSymbol from "../img/symbols/html5-symbol.png"
 import cssSymbol from "../img/symbols/css-symbol.png"
 import javaScriptSymbol from "../img/symbols/javascript-symbol.png"
+import typeScriptSymbol from "../img/symbols/typescript.png"
 import reactSymbol from "../img/symbols/react-symbol.png"
 import bootstrapSymbol from "../img/symbols/bootstrap-symbol.png"
 import tailwindSymbol from "../img/symbols/tailwind-symbol.png"
@@ -9,7 +10,9 @@ import netFramework from "../img/symbols/net-framework-symbol.png"
 import microsoftSqlServer from "../img/symbols/microsoft-sql-server-symbol.png"
 import azure from "../img/symbols/azure-development.png"
 import entityFramework from "../img/symbols/entity-framework-symbol.png"
+import webApiDynamics from '../img/symbols/webapidynamics.png'
 
+import timetracker from "../img/proyects/timetracker2.png"
 import infractionSystem from "../img/proyects/infractionSystem.png"
 import sportClub from "../img/proyects/sport-club.jpg"
 import barberShop from "../img/proyects/barberShop.png"
@@ -21,6 +24,20 @@ import piBeerImg from "../img/proyects/pibeer.png"
 import portfolioImg from "../img/proyects/portfolio.png"
 
 const proyects = [
+    {
+        title:"TimeTracker",
+        technologies:{
+            html: { symbol: htmlSymbol,name: "HTML", className: "" },
+            css: { symbol: cssSymbol,name: "CSS", className: "" },
+            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
+            webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"}
+        },
+        proyectImg:timetracker,
+        urlVideo:"",
+        urlGitHub:""
+    },
+
     {
         title:"Infraction System",
         technologies:{
