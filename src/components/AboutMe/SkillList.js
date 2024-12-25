@@ -14,7 +14,7 @@ function SkillList(){
     return(
         <div className="skill-list-container">
             <div className="technologies-skill-list-container">
-                <h3 className="h3-title">Tecnologías</h3>
+                <h3 className="h3-title">Technologies</h3>
                 <div className="skills">
                     <Skill title="HTML" img={htmlImg}/>
                     <Skill title="CSS" img={cssImg}/>
@@ -26,7 +26,7 @@ function SkillList(){
             </div>
 
             <div className="design-skill-list-container">
-                <h3 className="h3-title">Planeamiento y Diseño</h3>
+                <h3 className="h3-title">Planning and Design</h3>
                 <div className="skills">
                     <Skill title="Enterprise Architect" img={enterpriseArchitectImg}/>
                     <Skill title="Figma" img={figmaImg}/>
