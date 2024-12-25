@@ -12,7 +12,7 @@ import azure from "../img/symbols/azure-development.png"
 import entityFramework from "../img/symbols/entity-framework-symbol.png"
 import webApiDynamics from '../img/symbols/webapidynamics.png'
 
-import timetracker from "../img/proyects/timetracker2.png"
+import timetracker from "../img/proyects/timetracker.png"
 import infractionSystem from "../img/proyects/infractionSystem.png"
 import sportClub from "../img/proyects/sport-club.jpg"
 import barberShop from "../img/proyects/barberShop.png"
