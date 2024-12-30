@@ -60,11 +60,32 @@ function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlVideo,urlProyec
                 </a>
                 
                 <div className="proyect-buttons-container">
-                    <a href={urlGitHub} target={"_blank"}>
+                
+                {!urlGitHub ? (
+                    <OverlayTrigger overlay={<Tooltip>{"Private. Work-Project Code"}</Tooltip>}>
+                        <a 
+                            href="#" 
+                            onClick={(e) => e.preventDefault()}  
+                            className="disabled"
+                        >
+                            <p>code</p>
+                        </a>
+                    </OverlayTrigger>
+                ) : (
+                    <a 
+                        href={urlGitHub} 
+                        target="_blank" 
+                        className="enabled"
+                    >
                         <p>code</p>
                     </a>
-                    
-                    <a href={url2} target={targetSelected} id="try-it">
+                )}
+                    <a 
+                        href={url2} 
+                        target={targetSelected}
+                        id="try-it"
+                        className={!url2 ? 'disabled' : 'enabled'}
+                    >
                         <p>{buttonText2.toLowerCase()}</p>
                     </a>
                 </div>
