@@ -11,6 +11,7 @@ import microsoftSqlServer from "../img/symbols/microsoft-sql-server-symbol.png"
 import azure from "../img/symbols/azure-development.png"
 import entityFramework from "../img/symbols/entity-framework-symbol.png"
 import webApiDynamics from '../img/symbols/webapidynamics.png'
+import microsoftAccessDB from '../img/symbols/microsoft-access.png'
 
 import timetracker from "../img/proyects/timetracker.png"
 import infractionSystem from "../img/proyects/infractionSystem.png"
@@ -34,10 +35,11 @@ const proyects = [
             webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"}
         },
         proyectImg:timetracker,
-        urlVideo:"",
-        urlGitHub:""
+        urlVideo:"https://www.youtube.com/watch?v=UF7KuxDoVp4&t=81s",
+        urlGitHub:"" //Private
     },
 
+    /*  Project in Progress
     {
         title:"Infraction System",
         technologies:{
@@ -48,15 +50,17 @@ const proyects = [
             azure: {symbol: azure, name:"Microsoft Azure", className: "circle-symbol"}
         },
         proyectImg:infractionSystem,
-        urlVideo:"",
-        urlGitHub:""
+        urlVideo:"content",
+        urlGitHub:"https://github.com/SantiagoNunezSelem/Sistema_Infracciones"
     },
-    
+    */
+
     {
         title:"Sport Club",
         technologies:{
-            cSharp: {symbol: cSharp, name:"C#", className:""},
+            cSharp: {symbol: cSharp, name:"C#", className:"cSharp"},
             netFramework: {symbol: netFramework, name:".NET Framework", className: "circle-symbol"},
+            microsoftAccessDB: {symbol: microsoftAccessDB, name:"Microsoft Access Database", className: "circle-symbol"}
         },
         proyectImg:sportClub,
         urlVideo:"https://youtu.be/Tg1rY32__eo",
