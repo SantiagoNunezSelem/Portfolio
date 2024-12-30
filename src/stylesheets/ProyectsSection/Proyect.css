@@ -1,3 +1,6 @@
+.hidden {
+    display: none !important; 
+}
 
 .background-proyect-container {
     width: 38vw;
@@ -35,17 +38,16 @@
 .symbols-container img {
     width:55px;
     height: auto;
-
 }
 
 .symbols-container .circle-symbol {
-    width: 67px;
-    height: 67px;
+    width: 66px;
+    height: 66px;
 }
 
 /* I modify the react symbol */
 .symbols-container .reactSymbol {
-    width:65px;
+    width:68px;
 }
 
 /* I modify the bootstrap symbol */
@@ -55,7 +57,7 @@
 }
 
 .symbols-container .typeScript {
-    width: 72px;
+    width: 74px;
 }
 
 .symbols-container .tailwindSymbol {
@@ -68,6 +70,7 @@
     overflow: hidden;
     min-width: 475px;
     min-height: 230px;
+    border-radius: 10px;
 }
 
 .proyect-img-container {
@@ -123,6 +126,15 @@
     cursor:pointer;
 }
 
+.proyect-buttons-container a.disabled {
+    background-color: #3d3d3d6e;
+    border-color: #00000075;
+}
+
+.proyect-buttons-container a.disabled p {
+    color:#fafafa57;
+}
+
 .proyect-buttons-container a p{
     font-size: 40px;
     font-weight:400;
@@ -133,12 +145,16 @@
     transition: all 0.3s;
 }
 
-.proyect-buttons-container a:hover {
+.proyect-buttons-container a.enabled:hover {
     background-color: #FFF;
 }
 
-.proyect-buttons-container a:hover p{
+.proyect-buttons-container a.enabled:hover p{
     color:#1B1B32;
+}
+
+.proyect-buttons-container a.disabled:hover {
+    cursor:not-allowed;
 }
 
 @media (max-width:900px){
