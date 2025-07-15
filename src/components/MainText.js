@@ -7,7 +7,7 @@ function MainText(){
 
     React.useEffect(() => {
       const typed = new Typed(textAnimated.current, {
-        strings: ["<i>Santiago Nuñez Selem</i>","<i>Full Stack Developer</i>","<i>Software Developer</i>"],
+        strings: ["<i>Santiago Nuñez Selem</i>","<i>Full Stack Developer</i>","<i>Dynamics 365 CRM Developer</i>"],
         typeSpeed: 50,
         backSpeed:30,
         backDelay:1500,
