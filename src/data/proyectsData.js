@@ -13,7 +13,7 @@ import entityFramework from "../img/symbols/entity-framework-symbol.png"
 import webApiDynamics from '../img/symbols/webapidynamics.png'
 import microsoftAccessDB from '../img/symbols/microsoft-access.png'
 
-import linkedInProyect from "../img/proyects/linkedin-proyect2.png"
+import linkedInProyect from "../img/proyects/linkedin-proyect.png"
 import tagsProyect from "../img/proyects/tags-proyect.png"
 import timetracker from "../img/proyects/timetracker.png"
 import infractionSystem from "../img/proyects/infractionSystem.png"
