@@ -19,12 +19,46 @@
 }
 
 .h3-title {
+    width: 100%;
     color: #FFF;
     text-align: left;
     font-family: Karla,sans-serif;
     font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
     font-weight: 400;
     margin:20px 0px;
+}
+
+.big-text {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Text animation */
+.big-text > * {
+    display: inline-block;
+    position: relative;
+    animation: 4s linear 0s infinite move;
+}
+
+.big-text > *.min {
+    min-width: 100%;
+}
+
+@keyframes move {
+    20% {
+        transform: translateX(0%);
+        left: 0%;
+    }
+    75%{
+        transform: translateX(-100%);
+        left: 100%;
+    }
+    100%{
+        transform: translateX(-100%);
+        left: 100%;
+    }
 }
 
 .symbols-container {

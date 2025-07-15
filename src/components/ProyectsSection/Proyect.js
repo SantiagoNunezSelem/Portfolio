@@ -33,10 +33,12 @@ function Proyect( {id,title,technologies,proyectImg,urlGitHub,urlVideo,urlProyec
             setUrl2(urlProyect)
     }
 
+    const isBigText = title.length > 20 ? "big-text" : ""
+
     return(
         <div className="background-proyect-container">
             <div className="proyect-container">
-                <h3 className="h3-title">{title}</h3>
+                <h3 className={`h3-title ${isBigText}`}><span>{title}</span></h3>
 
                 <div className="symbols-container" id={id}>
                     {
