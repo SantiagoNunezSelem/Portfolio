@@ -7,9 +7,9 @@ function Introduction(){
             <img src={santiImg}></img>
             <div className="text-intro-container">
                 <p>
-                My name is Santiago Nuñez Selem, I am 21 years old, and I am currently 
-                in my third year of the Bachelor's Degree in Systems. I am working as 
-                a .NET and React Developer at 'Remoting Coders'.
+                My name is Santiago Nuñez Selem, I'm 22 years old, and I'm currently 
+                in my third year of the Bachelor's Degree in Systems. I work as 
+                a CRM Developer at 'Banco Hipotecario'.
                 </p>
             </div>
         </div>
