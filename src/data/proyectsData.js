@@ -13,6 +13,8 @@ import entityFramework from "../img/symbols/entity-framework-symbol.png"
 import webApiDynamics from '../img/symbols/webapidynamics.png'
 import microsoftAccessDB from '../img/symbols/microsoft-access.png'
 
+import linkedInProyect from "../img/proyects/linkedin-proyect2.png"
+import tagsProyect from "../img/proyects/tags-proyect.png"
 import timetracker from "../img/proyects/timetracker.png"
 import infractionSystem from "../img/proyects/infractionSystem.png"
 import sportClub from "../img/proyects/sport-club.jpg"
@@ -26,16 +28,38 @@ import portfolioImg from "../img/proyects/portfolio.png"
 
 const proyects = [
     {
-        title:"TimeTracker",
+        title:"Tags PCF In Dynamics 365",
         technologies:{
-            html: { symbol: htmlSymbol,name: "HTML", className: "" },
-            css: { symbol: cssSymbol,name: "CSS", className: "" },
-            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
             react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
+            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
+            cSharp: {symbol: cSharp, name:"C#", className:"cSharp"},
+            netFramework: {symbol: netFramework, name:".NET Framework", className: "circle-symbol"},
+            webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"},
+        },
+        proyectImg:tagsProyect,
+        urlVideo:"https://www.youtube.com/watch?v=r_38o9mYWVg&t",
+        urlGitHub:"" //Private
+    },
+    {
+        title:"LinkedIn Scraper PCF In Dynamics 365",
+        technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
+            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
+            webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"},
+        },
+        proyectImg:linkedInProyect,
+        urlVideo:"https://www.youtube.com/watch?v=-_4cezDzbZQ",
+        urlGitHub:"" //Private
+    },
+    {
+        title:"TimeTracker PCF in Dynamics 365",
+        technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
+            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
             webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"}
         },
         proyectImg:timetracker,
-        urlVideo:"https://www.youtube.com/watch?v=UF7KuxDoVp4&t=81s",
+        urlVideo:"https://www.youtube.com/watch?v=UF7KuxDoVp4&t",
         urlGitHub:"" //Private
     },
 
@@ -70,11 +94,11 @@ const proyects = [
     {
         title:"Barber Shop",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
-            tailwind: { symbol: tailwindSymbol, name: "Tailwind", className: "tailwindSymbol" }
+            tailwind: { symbol: tailwindSymbol, name: "Tailwind", className: "tailwindSymbol" },
         },
         proyectImg:barberShop,
         urlGitHub:"https://github.com/SantiagoNunezSelem/No-Country-C17/tree/main-sin-db",
@@ -84,10 +108,10 @@ const proyects = [
     {
         title:"Game of Life",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" }
         },
         proyectImg:GameOfLife,
         urlGitHub:"https://github.com/SantiagoNunezSelem/GameOfLife",
@@ -97,10 +121,10 @@ const proyects = [
     {
         title:"Filter Users App",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             bootstrap: { symbol: bootstrapSymbol, name: "Bootstrap", className: "bootstrapSymbol" }
         },
         proyectImg:filterAppImg,
@@ -111,10 +135,10 @@ const proyects = [
     {
         title:"Calculator",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             bootstrap: { symbol: bootstrapSymbol, name: "Bootstrap", className: "bootstrapSymbol" }
         },
         proyectImg:calculatorImg,
@@ -125,10 +149,10 @@ const proyects = [
     {
         title:"Tasks List",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
         },
         proyectImg:taskListImg,
         urlGitHub:"https://github.com/SantiagoNunezSelem/Tasks-List",
@@ -149,10 +173,10 @@ const proyects = [
     {
         title:"Portfolio",
         technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
             css: { symbol: cssSymbol,name: "CSS", className: "" },
             javascript: { symbol: javaScriptSymbol,name: "JavaScript", className: "" },
-            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
         },
         proyectImg:portfolioImg,
         urlGitHub:"https://github.com/SantiagoNunezSelem/Portfolio",
