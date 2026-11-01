@@ -13,6 +13,7 @@ import entityFramework from "../img/symbols/entity-framework-symbol.png"
 import webApiDynamics from '../img/symbols/webapidynamics.png'
 import microsoftAccessDB from '../img/symbols/microsoft-access.png'
 
+import creditLinesProyect from "../img/proyects/credit-lines-dynamics.png"
 import linkedInProyect from "../img/proyects/linkedin-pcf.png"
 import tagsProyect from "../img/proyects/tags-pcf.png"
 import timetracker from "../img/proyects/timetracker.png"
@@ -27,6 +28,19 @@ import piBeerImg from "../img/proyects/pibeer.png"
 import portfolioImg from "../img/proyects/portfolio.png"
 
 const proyects = [
+    {
+        title:"Credit Lines In Dynamics 365",
+        technologies:{
+            react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
+            typeScript: { symbol: typeScriptSymbol,name: "TypeScript", className: "typeScript" },
+            cSharp: {symbol: cSharp, name:"C#", className:"cSharp"},
+            netFramework: {symbol: netFramework, name:".NET Framework", className: "circle-symbol"},
+            webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"},
+        },
+        proyectImg:creditLinesProyect,
+        urlVideo:"https://www.youtube.com/watch?v=v0pQp72siSo",
+        urlGitHub:"" //Private
+    },
     {
         title:"Tags PCF In Dynamics 365",
         technologies:{
