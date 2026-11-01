@@ -59,26 +59,25 @@
 
     .h3-conctact-container {
         display:flex;
-        height: 14vw;
+        height: 11vw;
         align-items: center;
-        justify-content: center;
-        padding-left: 0;
         background-color: #89a3ff10;
         margin-bottom: 5vw;
     }
 
     .h3-conctact-container h3{
-        font-size: 5.4vw;
+        font-size: 4vw;
         margin: 0;
     }
 
     .icons-contact-container {
-        width: 84%;
-        height: 15vw;
+        width: 80%;
+        height: 12vw;
+        align-items: center;
     }
 
     .icons-contact-container img {
-        height: 11vw;
+        height: 9.7vw;
     }
 
 }
