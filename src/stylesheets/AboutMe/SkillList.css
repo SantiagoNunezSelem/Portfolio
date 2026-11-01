@@ -1,88 +1,45 @@
 .skill-list-container {
     display:flex;
-    width: auto;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90vw;
+    margin-top: 20px;
 }
 
 .technologies-skill-list-container,
 .design-skill-list-container {
-    width:auto;
-    max-width: 800px;
-    height: 300px;
-    margin-top:40px;
+    width: 94%;
+    margin: 20px 2% 0 4%;
 }
 
-.technologies-skill-list-container {
-    margin-left:4%;
-    margin-right: 30px;
-}
-
-.design-skill-list-container {
-    min-width: 550px;
-    margin-right: 2%;
+.skill-list-container .h3-title {
+    font-size: 36px;
+    margin: 0;
 }
 
 .skills {
     display:flex;
     flex-wrap: wrap;
-    gap:30px;
-    margin-top: 30px;
+    gap:16px 18px;
+    margin-top: 14px;
 }
 
-@media (max-width:1200px){
-    .skill-list-container {
-        width: auto;
-        height: auto;
-        align-items: flex-start;
-        flex-direction: column;
-        gap:0;
-    }
-
+@media (max-width:700px){
     .skill-list-container .h3-title {
-        font-size: 3.2em;
-    }
-
-    .technologies-skill-list-container,
-    .design-skill-list-container {
-        height: auto;
-        width:90%;
-        max-width: none;
-        margin-left: 5%;
-    }
-
-    .technologies-skill-list-container{
-        margin-top: 4vw;
-    }
-
-    .design-skill-list-container {
-        min-width: 200px;
-        margin-top: 0px;
-        height: auto;
-        margin-top: none;
+        font-size: 28px;
     }
 
     .skills {
-        width:auto;
-        margin-top: 2vw;
-        gap:3vw;
-    }
-
-}
-
-@media (max-width:900px){
-    .skill-list-container .h3-title {
-        font-size: 2.7em;
+        gap:19px 18px;
     }
 }
 
 @media (max-width:500px){
-
     .skill-list-container .h3-title {
-        font-size: 2.2em;
+        font-size: 24px;
     }
 
     .skills {
-        gap:4vw;
+        gap:17px 14px;
     }
 }

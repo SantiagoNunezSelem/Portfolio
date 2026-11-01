@@ -3,62 +3,48 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 50px;
-    margin-bottom: 40px;
+    height: 40px;
     gap:7px;
 }
 
 .skill-container img {
     pointer-events: none;
     width: auto;
-    height: 60px;
+    height: 40px;
 }
 
 .skill-container p {
     margin:auto auto auto 5px;
-    font-size: 22px;
+    font-size: 18px;
     font-family: sans-serif;
     font-weight:100;
     color:white;
 }
 
-@media (max-width:1200px){
+@media (max-width:700px){
     .skill-container{
-        /* min-width: 170px; */
-        height:auto;
-        min-width: auto;
-        margin-bottom: 2vw;
+        height: 32px;
     }
 
     .skill-container img {
-        height: 5.2vw;
+        height: 32px;
     }
 
     .skill-container p{
-        font-size: 1.5rem;
-    }
-}
-@media (max-width:700px){
-    .skill-container{
-        min-width: 15vw;
-        margin-bottom: 2vw;
-    }
-
-    .skill-container img {
-        height: 6vw;
+        font-size: 16px;
     }
 }
 
 @media (max-width:500px){
     .skill-container{
-        height:12vw;
+        height: 26px;
     }
 
     .skill-container img {
-        height: 30px;
+        height: 26px;
     }
 
     .skill-container p{
-        font-size: 1.2rem;
+        font-size: 14px;
     }
 }

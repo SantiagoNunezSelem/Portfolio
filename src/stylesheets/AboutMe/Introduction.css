@@ -47,10 +47,14 @@
     }
 }
 
-@media (max-width:500px){
+@media (max-width:700px){
+    .intro-container {
+        flex-direction: column;
+        gap:20px;
+    }
 
     .intro-container img {
-        width:0;
+        width:150px;
     }
 
     .text-intro-container {
@@ -59,6 +63,7 @@
     }
 
     .text-intro-container p{
-        font-size: 5vw;
+        font-size: clamp(17px, 4.6vw, 24px);
+        margin: 0;
     }
 }
