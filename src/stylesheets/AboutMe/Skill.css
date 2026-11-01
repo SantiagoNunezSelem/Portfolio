@@ -3,14 +3,19 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 40px;
+    height: 48px;
     gap:7px;
 }
 
 .skill-container img {
     pointer-events: none;
     width: auto;
-    height: 40px;
+    height: 48px;
+}
+
+/* TypeScript's symbol looks small next to the others */
+.skill-container img.skill-typescript {
+    height: 58px;
 }
 
 .skill-container p {
@@ -23,28 +28,36 @@
 
 @media (max-width:700px){
     .skill-container{
-        height: 32px;
+        height: 40px;
     }
 
     .skill-container img {
-        height: 32px;
+        height: 40px;
+    }
+
+    .skill-container img.skill-typescript {
+        height: 48px;
     }
 
     .skill-container p{
-        font-size: 16px;
+        font-size: 19px;
     }
 }
 
 @media (max-width:500px){
     .skill-container{
-        height: 26px;
+        height: 36px;
     }
 
     .skill-container img {
-        height: 26px;
+        height: 36px;
+    }
+
+    .skill-container img.skill-typescript {
+        height: 44px;
     }
 
     .skill-container p{
-        font-size: 14px;
+        font-size: 18px;
     }
 }

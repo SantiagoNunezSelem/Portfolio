@@ -195,15 +195,17 @@
     .background-proyect-container {
         min-width: auto;
         min-height: auto;
-        width: 80vw;
-        height: 72vw;
+        width: 92vw;
+        height: auto;
+        padding: 1vw 0 2vw;
         margin:5vw auto;
         border-radius: 7vw;
     }
 
     .proyect-container {
-        max-width: 85%;
-        margin-left:5.8vw;
+        width: 82vw;
+        max-width: none;
+        margin: 0 auto;
     }
 
     .proyect-container .h3-title {
@@ -248,8 +250,8 @@
     .proyect-img-container,.proyect-img {
         min-width: auto;
         min-height: auto;
-        width: 68vw;
-        height: 33vw;
+        width: 100%;
+        height: 40vw;
     }
     
     .proyect-container h4 {
@@ -259,16 +261,16 @@
     
     .proyect-buttons-container {
         margin:3vw 0px;
-        gap:2.8vw;
+        gap:3vw;
     }
 
     .proyect-buttons-container a {
-        width: 30vw;
-        height: 7.5vw;
-        border-radius: 1.5vw;
+        width: 36vw;
+        height: 10vw;
+        border-radius: 2vw;
     }
 
     .proyect-buttons-container a p {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 }
