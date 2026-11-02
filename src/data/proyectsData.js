@@ -133,6 +133,7 @@ const proyects = [
     },
 
     {
+        hidden:true,
         title:"Filter Users App",
         technologies:{
             react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
@@ -147,6 +148,7 @@ const proyects = [
     },
 
     {
+        hidden:true,
         title:"Calculator",
         technologies:{
             react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
@@ -161,6 +163,7 @@ const proyects = [
     },
 
     {
+        hidden:true,
         title:"Tasks List",
         technologies:{
             react: { symbol: reactSymbol, name: "React", className: "reactSymbol" },
@@ -174,6 +177,7 @@ const proyects = [
     },
 
     {
+        hidden:true,
         title:"PiBeer",
         technologies:{
             html: { symbol: htmlSymbol,name: "HTML", className: "" },
