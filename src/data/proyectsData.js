@@ -38,7 +38,7 @@ const proyects = [
             webApiDynamics: { symbol: webApiDynamics, name: "WebAPI Dynamics 365", className: "circle-symbol"},
         },
         proyectImg:creditLinesProyect,
-        urlVideo:"https://www.youtube.com/watch?v=v0pQp72siSo",
+        urlVideo:"https://youtu.be/iBuqyTOF4Po",
         urlGitHub:"" //Private
     },
     {
